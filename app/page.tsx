@@ -36,7 +36,7 @@ const projects = [
     category: "Construction",
     description:
       "Delivering quality construction solutions with attention to planning, workmanship, and project requirements.",
-    image: "/images/projects/project-1.jpg",
+    image: "/images/projects/project-1-new.jpg",
   },
   {
     title: "Structural & Engineering Works",
@@ -136,7 +136,7 @@ export default function HomePage() {
           <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-2 lg:px-8">
             <div className="relative overflow-hidden">
               <Image
-                src="/images/home/who-we-are.jpg"
+                src="/images/home/who-we-are-new.jpg"
                 alt="Parapet Contractors construction and engineering project"
                 width={1080}
                 height={1350}
@@ -301,6 +301,145 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+```tsx
+{/* GALLERY PREVIEW */}
+<section className="bg-[#f7f7f5] py-24">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+      <div className="max-w-2xl">
+        <p className="text-base font-black uppercase tracking-[0.18em] text-[#ed1c24] sm:text-lg">
+          Our Gallery
+        </p>
+
+        <h2 className="mt-5 text-4xl font-black leading-tight text-[#171a4b] sm:text-5xl">
+          A closer look at the work we do.
+        </h2>
+
+        <p className="mt-6 text-lg leading-8 text-slate-600">
+          Explore moments from our construction, engineering, and project
+          delivery work. Our gallery gives you a visual look at the type of
+          projects and solutions we are proud to support.
+        </p>
+      </div>
+
+      <Link
+        href="/gallery"
+        className="font-bold text-[#ed1c24] transition hover:text-red-700"
+      >
+        View Full Gallery →
+      </Link>
+    </div>
+
+    <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <Link
+        href="/gallery"
+        className="group relative h-80 overflow-hidden"
+      >
+        <Image
+          src="/images/gallery/building-1.jpg"
+          alt="Building construction project"
+          fill
+          className="object-cover transition duration-500 group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-[#171a4b]/80 via-transparent to-transparent" />
+
+        <div className="absolute bottom-0 left-0 p-6 text-white">
+          <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#ed1c24]">
+            Construction
+          </p>
+
+          <h3 className="mt-2 text-xl font-black">
+            Building Projects
+          </h3>
+        </div>
+      </Link>
+
+      <Link
+        href="/gallery"
+        className="group relative h-80 overflow-hidden"
+      >
+        <Image
+          src="/images/gallery/architecture-1.jpg"
+          alt="Architectural design project"
+          fill
+          className="object-cover transition duration-500 group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-[#171a4b]/80 via-transparent to-transparent" />
+
+        <div className="absolute bottom-0 left-0 p-6 text-white">
+          <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#ed1c24]">
+            Design
+          </p>
+
+          <h3 className="mt-2 text-xl font-black">
+            Architectural Work
+          </h3>
+        </div>
+      </Link>
+
+      <Link
+        href="/gallery"
+        className="group relative h-80 overflow-hidden"
+      >
+        <Image
+          src="/images/gallery/structural-1.jpg"
+          alt="Structural engineering project"
+          fill
+          className="object-cover transition duration-500 group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-[#171a4b]/80 via-transparent to-transparent" />
+
+        <div className="absolute bottom-0 left-0 p-6 text-white">
+          <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#ed1c24]">
+            Engineering
+          </p>
+
+          <h3 className="mt-2 text-xl font-black">
+            Structural Works
+          </h3>
+        </div>
+      </Link>
+
+      <Link
+        href="/gallery"
+        className="group relative h-80 overflow-hidden"
+      >
+        <Image
+          src="/images/gallery/infrastructure-1.jpg"
+          alt="Infrastructure development project"
+          fill
+          className="object-cover transition duration-500 group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-[#171a4b]/80 via-transparent to-transparent" />
+
+        <div className="absolute bottom-0 left-0 p-6 text-white">
+          <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#ed1c24]">
+            Infrastructure
+          </p>
+
+          <h3 className="mt-2 text-xl font-black">
+            Civil Projects
+          </h3>
+        </div>
+      </Link>
+    </div>
+
+    <div className="mt-12 text-center">
+      <Link
+        href="/gallery"
+        className="inline-block bg-[#171a4b] px-8 py-4 font-bold text-white transition hover:bg-[#ed1c24]"
+      >
+        Explore Our Full Gallery →
+      </Link>
+    </div>
+  </div>
+</section>
+```
 
         {/* WHY CHOOSE PARAPET */}
         <section className="bg-white py-24">

@@ -17,21 +17,21 @@ const projects = [
     category: "Industrial Construction",
     description:
       "Construction support for an industrial development with demanding operational and technical requirements.",
-    image: "/images/projects/industrial-development.jpg",
+    image: "/images/projects/industrial-development-new.jpg",
   },
   {
     title: "Structural Engineering Works",
     category: "Structural & Civil Engineering",
     description:
       "Engineering and structural works designed to support safe and practical project delivery.",
-    image: "/images/projects/structural-engineering.jpg",
+    image: "/images/projects/structural-engineering-new.jpg",
   },
   {
     title: "Infrastructure Development",
     category: "Civil Engineering",
     description:
       "Civil and infrastructure works supported through technical coordination and project oversight.",
-    image: "/images/projects/infrastructure.jpg",
+    image: "/images/projects/infrastructure-new.jpg",
   },
   {
     title: "Construction Project Supervision",

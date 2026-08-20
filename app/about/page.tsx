@@ -42,7 +42,7 @@ export default function AboutPage() {
             {/* Image */}
             <div className="relative min-h-[500px] overflow-hidden bg-slate-200">
               <Image
-  src="/images/about/about-parapet.jpg"
+  src="/images/about/about-parapet-new.jpg"
   alt="Parapet Contractors and Engineering team"
   width={800}
   height={1000}
