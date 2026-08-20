@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f7f5;
+  --foreground: #111827;
+
+  --parapet-red: #ed1c24;
+  --parapet-navy: #171a4b;
+  --parapet-dark: #0f172a;
+  --parapet-gray: #64748b;
+  --parapet-light: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
