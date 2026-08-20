@@ -5,6 +5,7 @@ const navigation = [
   { name: "About Us", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
+  { name: "Gallery", href: "/gallery" },
   { name: "Request a Quote", href: "/quote" },
   { name: "Contact", href: "/contact" },
 ];
@@ -143,10 +144,10 @@ export default function Footer() {
               <p className="font-bold text-white">Email Us</p>
 
               <a
-                href="mailto:PARAPETCONTRACTORS@GMAIL.COM"
+                href="mailto:parapetcontractors@gmail.com"
                 className="mt-2 block break-all text-slate-400 transition hover:text-[#ed1c24]"
               >
-                PARAPETCONTRACTORS@GMAIL.COM
+                parapetcontractors@gmail.com
               </a>
             </div>
 
@@ -154,7 +155,7 @@ export default function Footer() {
               <p className="font-bold text-white">WhatsApp</p>
 
               <a
-                href="https://wa.me/256765750255"
+                href="https://wa.me/256741451478"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 inline-block text-[#ed1c24] transition hover:text-red-400"
